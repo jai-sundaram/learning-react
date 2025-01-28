@@ -27,8 +27,7 @@ const Search = ({searchTerm, setSearchTerm}) => {
                     placeholder="search through "
                     value={searchTerm}
                     onChange = {(e) => setSearchTerm(e.target.value)}
-                />
-            </div>
+                /></div>
         </div>
     )
 }
