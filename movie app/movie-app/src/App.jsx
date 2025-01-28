@@ -13,8 +13,8 @@ import Search from "./components/Search.jsx";
 
 const App = () => {
     //creating a state for a search term (searching for a movie)
-    const [searchTerm, setSearchTerm] = useState('men');
-    //ONLY MUTATE THE VALUES OF THE VARIABLES USING THE SETTER FUNCTIONS ABOVE 
+    const [searchTerm, setSearchTerm] = useState('');
+    //ONLY MUTATE THE VALUES OF THE VARIABLES USING THE SETTER FUNCTIONS ABOVE
     return (
         //starting top down from the header
         //adding a span tag and give it a classname - this corresponds to some css styling attributes in index.css
